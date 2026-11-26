@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "primary-font";
+    src: url("fonts/iran-yekan-300.woff2") format("woff2");
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "primary-font";
+    src: url("fonts/iran-yekan-400.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "primary-font";
+    src: url("fonts/iran-yekan-500.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "primary-font";
+    src: url("fonts/iran-yekan-700.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+}
+
+body {
+    font-family: "primary-font", sans-serif;
+    font-weight: 400;
+    direction: rtl;
+}
+
+.navbar {
+    font-weight: 500;
+}
+
+.hero h1 {
+    font-weight: 700;
+
+}
+
+.hero p {
+    font-weight: 300;
+}
+
+section h2 {
+    font-weight: 700;
+}
+
+.part-title {
+    font-weight: 500;
+}
+
+.content p {
+    font-weight: 400;
+}
+
+.caption {
+    font-weight: 300;
+}
+
+button {
+    font-family: inherit;
+    font-weight: 500;
+}
+
+body {
+    background:
+        radial-gradient(ellipse at 10% 10%, rgba(96, 165, 250, 0.10), transparent 40%),
+        radial-gradient(ellipse at 90% 80%, rgba(129, 140, 248, 0.10), transparent 40%),
+        #f5f8ff;
+    font-family: "primary-font", sans-serif;
+}
